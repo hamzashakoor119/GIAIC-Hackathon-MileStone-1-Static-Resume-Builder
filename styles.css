@@ -1,0 +1,100 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f2f4f7; /* Softer light gray background */
+}
+
+/* Heading styling */
+h1 {
+
+    font-size: 36px;         /* Increase font size */
+    font-weight: 900;        /* Set to bolder weight */
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    background-color: #2f4f4f; /* Dark Slate Gray for a refined, modern look */
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.493);
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    letter-spacing: 1px; /* Add slight spacing between letters */
+}
+
+/* Form styling */
+form {
+    max-width: 700px;
+    margin: auto;
+    background-color: #ffffff; /* Clean white background */
+    border: 2px solid #dee2e6; /* Soft gray border */
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.493); /* Slightly darker shadow for more depth */
+    padding: 25px;
+}
+
+/* Fieldset styling */
+fieldset {
+    font-size: 35px;
+    font-weight: 900;
+    border: 2.5px solid #b0c4de; /* Light steel blue border */
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.493);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f8ff; /* Soft blue fieldset background */
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    color: #2c3e50; /* Dark gray-blue */
+    padding: 0 10px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50; /* Muted dark gray-blue */
+    font-size: 14px;
+}
+
+/* Input and textarea styling */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #b0c4de; /* Light blue border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White input background */
+    font-size: 14px;
+    color: #333333; /* Dark gray text */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2); /* Hover shadow for depth */
+    
+}
+
+/* Button styling */
+button {
+    font-size: 30px;
+    display: inline-block;
+    padding: 15px 30px; /* Larger padding for a more defined button */
+    color: white;
+    background-color: #318d8d; /* Dark Slate Gray for a more professional button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for importance */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Same modern font */
+    margin-top: 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #032c2c; /* Darker gray-green on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Hover shadow for depth */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
